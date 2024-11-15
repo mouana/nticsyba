@@ -1,0 +1,148 @@
+:root{
+  --blue:	rgb(2, 117, 216);
+  --green:#47AE6A;
+  --grey:rgb(171, 166, 166);
+}
+@font-face {
+  font-family: "fontrounded"; 
+  src: url(arial-rounded.ttf);
+}  
+
+body{
+  top: 0;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: math;
+  max-width: 100%;
+} 
+.full-height{
+  display: flex;
+  flex-direction: column;
+  font-family: "fontrounded";
+}
+
+/* Sections µµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµ*/
+
+section {
+  position: relative;
+  top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--dark-blue);
+  width: 92%;
+  margin-left: 5rem;
+  line-height: 26px;
+}
+
+.para {
+  width: 95%;
+}
+
+.creer_blog  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green);
+  color: white;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.creer_blog:hover {
+  background-color: var(--blue);
+  color: white;
+}
+
+section img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+}
+
+section img:hover {
+  transform: scale(1.02);
+  transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0px;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.first_blogs , .second_blogs{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  width: 90%;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--primary--gray);
+  width: 30%;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+              rgba(0, 0, 0, 0.07) 0px 2px 4px,
+              rgba(0, 0, 0, 0.07) 0px 4px 8px,
+              rgba(0, 0, 0, 0.07) 0px 8px 16px,
+              rgba(0, 0, 0, 0.07) 0px 16px 32px,
+              rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.blogs .btn{
+  background-color: var(--green);
+}
+.blogs .btn:hover{
+  background-color: var(--green);
+}
+.para .btn{
+  background-color: var(--green);
+  
+  background-color: var(--green);
+}
+.para .btn:hover{
+  background-color: var(--green);
+}
+.blog h3 {
+  color: var(--grey);
+}
+
+.blog a:not(:first-child) {
+  background-color: var(--green);
+  color: white;
+  width: 50%;
+  height: 30px;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.blog a:not(:first-child):hover {
+  background-color: var(--blue);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.5s;
+  transform: scale(1.01);
+}
+.blog h3,h5{
+  text-align: center;
+  margin: 0 0 20px 0;
+  height: 80px;
+}
+
+
+
+/* footer************************************************************************************* */

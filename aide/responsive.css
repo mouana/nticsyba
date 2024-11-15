@@ -1,0 +1,305 @@
+:root{
+  --blue:	rgb(2, 117, 216);
+  --green:#47AE6A;
+  --grey:rgb(171, 166, 166);
+}
+
+/* ! Media Query : */
+
+  /* For Laptop */
+
+  @media screen and (min-device-width: 769px) and (max-device-width: 1068px) {
+
+    .full-height {
+      font-size: 16px!important;
+    }
+
+    /* ! Header : */
+
+    .logo h4{
+      left: 95px;
+
+    }
+    .headr_1{
+      padding: 0;
+    }
+    .logo-img{
+      position: relative;
+      left: 25px;
+    }
+    .logo-img img{
+      padding: 15px;
+      width: auto;
+    }
+
+
+    .mybar {
+      justify-content: center;
+    }
+
+    .barlist {
+      margin-right: 0px;
+    }
+
+    .barlist li {
+      margin-left: 10px;
+      font-size: 16px;
+    }
+
+    #aid span {
+      width: 25px;
+    }
+
+    .barlist , #lang-list {
+      padding-left: 1rem;
+    }
+
+    /* ! Section : */
+
+    /* ! Footer : */
+
+    .columns {
+      width: auto;
+    }
+
+  }
+
+  /* For Tablet View */
+
+  @media screen and (min-width: 600px) and (max-device-width: 768px) {
+
+    .full-height {
+      font-size: 15px!important;
+    }
+
+    /* ! Header : */
+
+    .logo h4{
+      left: 95px;
+
+    }
+    .headr_1{
+      padding: 0;
+    }
+    .logo-img{
+      position: relative;
+      left: 25px;
+    }
+    .logo-img img{
+      padding: 15px;
+      width: auto;
+    }
+
+
+    .barlist {
+      display: none;
+      background-color: white;
+      position: absolute;
+      border-radius: 0;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      padding-left: 0;
+      z-index: 1;
+    }
+
+    #menubr {
+      display: flex;
+      position: absolute;
+      cursor: pointer;
+      right: 2px;
+    }
+
+    #lang-list {
+      position: absolute;
+      right: 50px;
+      top: 12px;
+    }
+
+    .mybar:hover .barlist {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      position: absolute;
+      top: 48px;
+      right: 1px;
+      margin-right: 0;
+    }
+
+    .barlist li {
+      margin-top: 0;
+      margin-left: 0;
+    }
+
+    .barlist li a {
+      color: black!important;
+      font-weight: 500!important;
+      width: 100%;
+      padding: 5px 20px;
+    }
+
+    .barlist li a:hover {
+      background-color: var(--blue);
+      color: white!important;
+      transform: scale(1) !important;
+    }
+
+    .barlist #HOME a:hover {
+      border-top-left-radius: 10px;
+    }
+
+    .barlist #DECONNECTER a:hover {
+      border-bottom-left-radius: 10px;
+    }
+
+    #aid span {
+      display: none;
+    }
+
+    /* ! Section : */
+
+    .aide-documnt {
+      width: 17%;
+    }
+
+    /* ! Footer : */
+
+    .columns {
+      width: 25%;
+    }
+
+    .reseaux a:not(:last-child) {
+      width: 25px;
+    }
+
+  }
+
+  /* For Mobile View */
+
+  @media only screen and (max-width: 600px) {
+
+    .full-height {
+      font-size: 14px!important;
+    }
+
+    /* ! Header : */
+
+    .logo h4{
+      left: 95px;
+
+    }
+    .headr_1{
+      padding: 0;
+    }
+    .logo-img{
+      position: relative;
+      left: 25px;
+    }
+    .logo-img img{
+      padding: 15px;
+      width: auto;
+    }
+
+    .barlist {
+      display: none;
+      background-color: white;
+      position: absolute;
+      border-radius: 0;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      padding-left: 0;
+      z-index: 1;
+    }
+
+    #menubr {
+      display: flex;
+      position: absolute;
+      cursor: pointer;
+      right: 2px;
+    }
+
+    #lang-list {
+      position: absolute;
+      right: 50px;
+      top: 12px;
+    }
+
+    .mybar:hover .barlist {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      position: absolute;
+      top: 48px;
+      right: 1px;
+      margin-right: 0;
+    }
+
+    .barlist li {
+      margin-top: 0;
+      margin-left: 0;
+    }
+
+    .barlist li a {
+      color: black!important;
+      font-weight: 500!important;
+      width: 100%;
+      padding: 5px 20px;
+    }
+
+    .barlist li a:hover {
+      background-color: var(--blue);
+      color: white!important;
+      transform: scale(1) !important;
+    }
+
+    .barlist #HOME a:hover {
+      border-top-left-radius: 10px;
+    }
+
+    .barlist #DECONNECTER a:hover {
+      border-bottom-left-radius: 10px;
+    }
+
+    #aid span {
+      display: none;
+    }
+
+    /* ! Section : */
+
+    .aide-search {
+      text-align: center;
+    }
+    .dis-doc {
+      flex-direction: column;
+    }
+
+    .aide-documnt {
+      width: 50%;
+    }
+
+    /* ! Footer : */
+
+    .rows {
+      flex-direction: column;
+    }
+
+    .columns {
+      width: auto;
+    }
+
+  }
+
+  @media only screen and (max-width: 320px) {
+    
+    /* ! Header : */
+
+    .logo-name {
+      display: none;
+    }
+
+    /* ! Section : */
+
+    /* ! Footer : */
+
+  }

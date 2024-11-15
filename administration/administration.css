@@ -1,0 +1,210 @@
+:root{
+    --blue:	rgb(2, 117, 216);
+    --green:#47AE6A;
+    --grey:rgb(171, 166, 166);
+  }  
+  @font-face {
+    font-family: "fontrounded"; 
+    src: url(arial-rounded.ttf);
+  }  
+  
+  body{
+    top: 0;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: math;
+    max-width: 2471px;
+  } 
+  .full-height{
+    display: flex;
+    flex-direction: column;
+    font-family: "fontrounded";
+  }
+  
+/* ******************************************************* */
+.whole_admin{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+
+}
+.dash-des1{
+    position: relative;
+    margin-left: 0 !important; ;
+}
+.dash-des2{
+    position: relative;
+    right: 0;
+}
+.dash-des3{
+    position: relative;
+    margin: 0 !important;
+    left: 20%;
+}
+.mysider{
+    height: auto;
+}
+.link-body{
+    color: black;
+}
+.capt-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.capt-img img{
+    width:400px;
+    margin-left: 10px;
+}
+.second_charts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.grades-chart{
+    width: 50%;
+}
+.courses-chart{
+    width: 70%;
+
+}
+.lign-h{
+    width: 500px;
+    position: absolute;
+    left: 15px;
+}
+.tabl-des{
+   position: relative;
+   left: 15px;
+   margin-top: 40px;
+}
+.chart img{
+    height: 200px;
+    width: 1000px;
+}
+.prog h2{
+    margin-top: 26px;
+}
+.prog-cour{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    margin-top: 5px;
+    justify-content: center;
+}
+.prog-cour-name{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    align-items: baseline;
+    margin: 15px;
+}
+.prog-cour-name h6{
+    margin:0 0px 2px 15px ;
+    text-wrap: nowrap;
+}
+.barlist-2{
+    position: sticky;
+    z-index: 2000;
+}
+.small tr:hover{
+    background-color: rgb(230, 230, 230);
+}
+/* ! ########################################################################## */
+
+
+@media (width < 800px) {
+  .bardisp{
+      display: none;
+  }
+ .mysider{
+  display: none;
+  position: relative;
+  TOP: -8rem;
+  z-index: 15000;
+ }
+ .ms-sm-auto.dash-des1,
+ .ms-sm-auto.dash-des2,
+ .ms-sm-auto.dash-des3{
+  top: 0;
+  margin: 0;
+  position: relative;
+ }
+ .chart img{
+  width: 100%;
+ }
+ .capt-img{
+  display: flex;
+  flex-direction: column;
+ }
+ .capt-img img{
+  width: 100%;
+ }
+ .lign-h{
+  display: none;
+ }
+ .tabl-des{
+  display: none;
+ }
+.prog-cour{
+  position: relative;
+}
+
+  body{
+      top: 0;
+      margin: 0 auto;
+      padding: 0;
+      overflow-x: hidden;
+      width: 100%;
+  } 
+}
+@media (800px < width <1020px) {
+  .chart{
+      width: 100%;
+  }
+  .chart img{
+      width: 500px;
+      position: relative;
+      left: 60px;
+  }
+  .link-body img{
+      width: 58px;
+  }
+  .d-flex h1{
+      width: 100%;
+      margin-left: 50px;
+  }
+  .btn-toolbar{
+      width: 100%;
+  }
+  .prog-cour{
+      width: 50% !important;
+  }
+  .tabl-des{
+      width: 300px !important;
+      left: -10px;
+  }
+  .dash-des2{
+      width: 595px !important;
+  }
+  .capt-img img {
+      width: 250px;
+  }
+}
+@media ( width : 1024px) {
+  .chart{
+      width: 100%;
+  }
+
+  .chart img{
+
+      width: 830px !important; 
+}
+.link-body img{
+  width: 58px;
+}
+}

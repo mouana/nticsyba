@@ -1,0 +1,252 @@
+:root{
+  --blue:	rgb(2, 117, 216);
+  --green:#47AE6A;
+  --grey:rgb(171, 166, 166);
+}
+@font-face {
+  font-family: "fontrounded"; 
+  src: url(arial-rounded.ttf);
+}
+
+body{
+  top: 0;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: math;
+  max-width: 100%;
+} 
+.full-height{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section */
+
+.contactsec{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 5rem;
+  
+}
+
+.contact-sect-outil{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.contact-outil{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 225px;
+  box-shadow: 1px 2px 2px 1px ;
+  margin: 5px;
+  z-index: 1000;
+  background-color: white;
+}
+.contact-outil h4{
+  text-align: center;
+  color: var(--blue);
+  text-wrap: wrap;
+  text-transform: capitalize;
+}
+.contact-outil p{
+  text-align: center;
+  text-wrap: wrap;
+  cursor: pointer;
+}
+
+.contact-outil i {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.contact-outil i img{
+  width: 30%;
+}
+.contact-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -40px;
+  width: 500px;
+  padding: 30PX;
+  background-color: var(--blue);
+}
+.contact-sec h2{
+  position: relative;
+  top:1rem;
+  text-transform: capitalize;
+  font-weight:bolder;
+  font-size: 4em;
+  text-align: center;
+  color: white;
+}
+.contact-sec form{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 1rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#myForm .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.invalide {
+  background: rgb(244 67 54);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
+  font-family: sans-serif;
+  font-size: smaller;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 5px;
+  position: relative;
+  top: -4px;
+}
+
+#valide {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 35px 50px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#return {
+  background-color: var(--green);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+#return:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* footer************************************************************************************* */
+
+.footer{
+  margin-top: 80px;
+  padding: 30px 0;
+  background-color: var(--grey);
+  position: relative;
+  top: 5rem;
+
+}
+.footer-cont{
+  margin: auto;
+  max-width: 1170px;
+  
+}
+ul{
+ list-style: none;  
+ padding: inherit;   
+}
+.columns{
+  width: 22%;
+  padding: 0 15px;
+}
+.rows{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columns h3{
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.columns h3::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: var(--green);
+  width: 50px;
+  height: 2px;
+
+}
+.columns ul{
+  padding-left: 0;
+}
+.columns ul li :not(:last-child){
+  margin-bottom: 10px;
+}
+.columns ul li a {
+  padding: 0;
+  margin: 5px;
+  color: white;
+  display: block;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+}
+.columns ul li a:hover{
+  color: black;
+  padding-left: 7px;
+}
+
+.reseaux a:not(:last-child){
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 10px 10px 0;
+  line-height: 40px;
+  color: white;
+}
+.reseaux a#wht :hover{
+  transition: 0.5s ease;  
+  color: rgb(34, 192, 87);
+  padding-left: 7px;
+}
+.reseaux a#gm :hover{
+  transition: 0.5s ease;  
+  color: rgb(216, 108, 54);
+  padding-left: 7px;
+}
+.reseaux a#tw :hover{
+  transition: 0.5s ease;  
+  color: rgb(34, 131, 192);
+  padding-left: 7px;
+}
+.reseaux a#fb :hover{
+  transition: 0.5s ease;  
+  color: rgb(19, 72, 122);
+  padding-left: 7px;
+}
+.reseaux a#locat{
+  text-decoration: none;
+  color: white;
+}
+.reseaux a#locat:hover{
+  transition: 0.5s;
+  color: var(--blue);
+}

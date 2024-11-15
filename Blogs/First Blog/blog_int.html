@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La gestion du temps</title>
+    <link rel="stylesheet" href="Blog_int.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="/jquery.min.js" ></script>
+    <link rel="stylesheet" href="/header/hreder.css">
+    <link rel="stylesheet" href="/Footer/footer.css">
+       <script defer src="/header/header.js"></script>
+       <script defer src="/Footer/footer.js" ></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body class="full-height">
+    <nav-bar></nav-bar>
+    <!-- contenu du page -->
+    <div class="container-fluid">
+        <div class="row ">
+    <!-- le contenu du aside -->
+            <div class="col-3 d-flex flex-column align-content-center ">
+                <aside class="center-aside d-flex flex-column align-content-center justify-content-center  ">
+                    <h4 class="text-center m-4">Voici Selection du ce  Mois!</h4><br>
+                    <h1 class="text-center">&dArr;</h1>
+                    <table class="table table-bordred table-hover tabasd">
+                        <tr><td class="asd-menu bg-primary text-light text-center"><a onclick="aff1()">La gestion du Temps</a></td></tr>
+                        <tr><td class="asd-menu bg-primary text-light  text-center"><a onclick="aff2()">Apprendre les langues</a></td></tr>
+                        <tr><td class="asd-menu bg-primary text-light  text-center"><a onclick="aff3()">Formation bureautique</a></td></tr>
+                        <tr><td class="asd-menu bg-primary text-light  text-center"><a onclick="aff4()">Guide des Bources</a></td></tr>
+                    </table>
+                </aside>
+            </div>
+    <!-- l'ecriture dans blog -->
+            <div class="col-9 ">
+                <div class="page mt-3">
+                    <i class="fa-regular fa-circle-left fa-2xl mt-5" style="color:rgb(2, 117, 216); cursor :pointer; "></i>
+                <h1 class="text-center pb-2 mt-5">La gestion du temps</h1>
+                <p class="mb-3">    
+                    La gestion du temps est essentielle pour une vie équilibrée et productive. Voici quelques conseils pour vous aider à mieux gérer votre temps :
+                <ol class="padding_8">
+                    <div class="show">
+                    <li ><strong>Établissez des objectifs clairs : </strong>Identifiez vos objectifs à court et à long terme. Cela vous aidera à prioriser vos tâches en fonction de leur importance par rapport à vos objectifs</li>
+                    <li ><strong>Faites une liste de tâches : </strong>Chaque jour, établissez une liste des tâches à accomplir. Classez-les par ordre de priorité et concentrez-vous sur les plus importantes.</li>
+                    <img  src="./todoliste.jpg" alt="tof" >
+                    <li ><strong>Utilisez un planning :</strong>Organisez votre journée en utilisant un planning ou un calendrier. Bloquez du temps pour des tâches spécifiques et respectez ces plages horaires autant que possible.</li>
+                    <li ><strong>Apprenez à dire non :</strong>Il est important de reconnaître vos limites et de ne pas surcharger votre emploi du temps. Apprenez à dire non aux engagements qui ne sont pas en alignement avec vos objectifs principaux.</li>
+                    <img  src="./non.jpg" alt="dire non" width="60%">
+                    <li ><strong>Évitez la procrastination :</strong>Attaquez-vous aux tâches difficiles en premier. Cela vous permettra de les aborder avec une énergie et une concentration maximales.</li>
+                    </div>
+        <!-- le centenu qui doit hide et puis l'afficher  -->
+                    <div class="hide" style="display:none;">
+                        <li><strong>Regroupez les tâches similaires :</strong>Faites plusieurs tâches similaires en une seule séance pour maximiser votre efficacité. Cela réduit le temps nécessaire pour passer d'une activité à l'autre.</li>
+                        <li><strong>Utilisez des outils de gestion du temps :</strong>Des outils tels que des applications de gestion de tâches, des rappels ou des techniques comme la technique Pomodoro peuvent vous aider à rester concentré et organisé.</li>
+                        <img src="./outils-de-gestion-de-temps-3.png.webp" alt="">
+                        <li><strong>Prenez des pauses :</strong>Planifiez des pauses régulières pour vous détendre et recharger votre énergie. Cela peut améliorer votre concentration et votre productivité.</li>
+                        <img src="./pause.jpg" alt="Prenez des pauses" height="10%">
+                        <li><strong>Évitez les distractions :</strong>Identifiez les sources de distractions (comme les médias sociaux, les notifications de téléphone) et minimisez-les pendant les périodes de travail intense.</li>
+                        <li><strong>Évaluez et ajustez :</strong>À la fin de chaque journée ou chaque semaine, évaluez vos progrès. Identifiez ce qui a fonctionné et ce qui peut être amélioré, puis ajustez votre approche en conséquence</li>
+                        <br>
+                        <p style="margin-left:-8%;" >La gestion du temps est un processus continu d'ajustement et d'adaptation. Trouvez ce qui fonctionne le mieux pour vous et soyez flexible dans votre approche pour maximiser votre efficacité.</p>
+                    </div>
+                </ol>
+                <!-- pour le btn lire plus/ moins -->
+                <div style="display: flex; justify-content:center; align-items:center; margin-bottom:20px;">
+                    <a onclick="afficher()"  class="lire_plus" > Lire plus</a>
+                </div>
+            </div>
+            <!-- un autre blog.. -->
+            <div class="page">
+                <h1>Apprendre les langues facilement avec ces sites</h1>
+                <p class="mb-3">    
+                    Apprendre les langues facilement avec ces sites : Notre sélection de sites pour apprendre les langues :
+                    <ol class="padding_8">
+                        <div class="show">
+                            <li ><strong>Pour Francais : </strong> Si l'on juge les plateformes d'apprentissage des langues en fonction de la qualité et de la variété de leur matériel pédagogique, digiSchool, Duolingo et Français facile sont les meilleurs sites web gratuits pour apprendre l'anglais.</li>
+                            <img  src="./drpfr.png" alt="tof" >
+                            <li ><strong>For English :</strong> Si l'on juge les plateformes d'apprentissage des langues en fonction de la qualité et de la variété de leur matériel pédagogique, VOA Learning English, Duolingo et BBC Learning English sont les meilleurs sites web gratuits pour apprendre l'anglais.</li>
+                            <img  src="./drpen.jpg" alt="dire non" width="60%">
+                            <li ><strong>für Deutschland :</strong>Si l'on juge les plateformes d'apprentissage des langues en fonction de la qualité et de la variété de leur matériel pédagogique, Deutsche Welle,  Deutsch Akademie et Deutsch Training sont les meilleurs sites web gratuits pour apprendre l'anglais.</li>
+                            <img  src="./drpdtch.jpg" alt="dire non" width="60%">
+                        </div>
+                        <!-- le centenu qui doit hide et puis l'afficher  -->
+                        <div class="hide" style="display:none;">
+                            <li><strong>Ressources multilingues :</strong>Si l'on juge les plateformes d'apprentissage des langues en fonction de la qualité et de la variété de leur matériel pédagogique, Busuu, Duolingo et Language Guide sont les meilleurs sites web gratuits pour apprendre les langues.</li>
+                            <img src="./mltilangue.jpg" alt="">
+                            <br>
+                            <p style="margin-left:-8%;" > Les langues et une moyens de cumminication tres important  dans la vie social et la vie professionnelle .</p>
+                        </div>
+                    </ol>
+                    <!-- pour le btn lire plus/ moins -->
+                    <div style="display: flex; justify-content:center; align-items:center; margin-bottom:20px;">
+                        <a onclick=" afficher()"  class="lire_plus" > Lire plus</a>
+                    </div>
+            </div>
+            <!-- un autre blog.. -->
+            <div class="page">
+                <h1>Rien a afficher</h1>
+            </div>
+            <div class="page">
+                <h1>Rien a afficher</h1>
+            </div>
+             
+            <!-- Buttons de passer -->
+
+            <div style="overflow:auto;">
+                <div style="float:right;">
+                  <button class=" btn   btn-secondary" type="button" id="precedBtn" onclick="SuivantPrecedent(-1)">Precedent</button>
+                  <button class=" btn btn-success" type="button" id="suivantBtn" onclick="SuivantPrecedent(1)">Suivant</button>
+                </div>
+              </div>
+              <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+              </div>
+            
+                <hr>
+        <!-- Pour les Commentaires -->
+                <h3><strong> Laisser un commentaire</strong></h3>
+                <p class="text-muted">Les commentaires sont disponible seulement pour Membres du <strong> NticSyba</strong></p>
+                <div class="cmntdisplay d-grid">
+                    <textarea rows="6"  cols="40" id="commentaire" maxlength="110" minlength="1" ></textarea> 
+                    <button  class=" btn mt-3 bg-success text-light w-50" onclick="AfficheCmnt()">Lesser un commentaire</button>
+                </div>
+                <div id="divCmnt" class="p-3 mr-3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- foooooooooterrr -->
+    <foot-js></foot-js>
+
+    <script src="first_blog.js" ></script>
+</body>
+</html>

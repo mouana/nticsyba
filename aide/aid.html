@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aide</title>
+        <link rel="stylesheet" href="/header/hreder.css">
+        <link rel="stylesheet" href="/bootstrap.min.css">
+        <link rel="stylesheet" href="/fontawsom/fontawesome.min.css">
+        <link rel="stylesheet" href="/fontawsom/all.min.css">
+        <link rel="stylesheet" href="/header/hreder.css">
+        <link rel="stylesheet" href="/Footer/footer.css">
+        <link rel="stylesheet" href="aide.css">
+           <script defer src="/header/header.js"></script>
+           <script defer src="/Footer/footer.js" ></script>
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+           <script src="aide.js" defer ></script>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+           <script src="/jquery.min.js" ></script>
+    </head>
+<body>
+</head>
+<body class="full-height">
+    <nav-bar></nav-bar>
+    <section class="Support">
+        <div class=" aide-back">
+            <img src="23985265_6895137.jpg" alt="">
+            <div class="aide-search ">
+                <h1>Comment pouvons-nous vous aider ?</h1>
+                <input class="form-control form-control-lg  search-cont " type="search" placeholder="Search" aria-label="Search">
+                <div class="search_prop">
+                    <ul>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+        <div class="dis-doc-0">
+            <div class="dis-doc">
+                <div class="aide-documnt">
+                    <img src="livre.png" alt="">
+                    <a href="#"><h6>Guide</h6></a>
+                </div>
+                <div class="aide-documnt">
+                    <img src="mortier.png" alt="">
+                    <a href="#"><h6>gérer votre profil</h6></a>
+                </div>
+                <div class="aide-documnt">
+                    <img src="verifie.png" alt="">
+                    <a href="#"><h6>Premiers pas</h6></a>
+                </div>
+                <div class="aide-documnt">
+                    <img src="telecharger.png" alt="">
+                    <a href="#"><h6>Téléchargement</h6></a>
+                </div>
+                <div class="aide-documnt">
+                    <img src="des-medias-sociaux.png" alt="">
+                    <a href="#"><h6>rester connecter</h6></a>
+                </div>
+            </div>
+        </div>
+        <div class="quistion-part">
+            <div>
+                <h1>Foires Aux Questions</h1>
+            </div>
+            <ul class="select-quest">
+                <li class="Question">
+                    <a>Est-ce que NTIC propose des programmes de formation continue ou de perfectionnement professionnel pour les diplômés ?</a>
+                   <i class="fa-solid fa-greater-than fa-rotate-90 fa " id="show-1" ></i>
+                </li>
+                <li class="answer" id="Answer-1"></li>
+
+                <li class="Question">
+                    <a>Est-ce que NTIC propose des programmes adaptés aux besoins du marché du travail local et international ?</a>
+                    <i class="fa-solid fa-greater-than fa-rotate-90 fa " id="show-2" ></i>
+                </li>
+                <li class="answer" id="Answer-2"></li>
+
+                <li class="Question">
+                    <a>Est-ce que NTIC offre un support ou des ressources supplémentaires pendant la période de stage ?</a>
+                    <i class="fa-solid fa-greater-than fa-rotate-90 fa " id="show-3" ></i>
+                </li>
+                <li class="answer" id="Answer-3"></li>
+
+                <li class="Question">
+                    <a>Comment NTIC soutient-il les initiatives entrepreneuriales ou l'auto-emploi pour ses diplômés ?</a>
+                    <i class="fa-solid fa-greater-than fa-rotate-90 fa " id="show-4" ></i>
+                </li>
+                <li class="answer" id="Answer-4"></li>
+
+                <li class="Question">
+                    <a>Comment obtenir des informations sur les stages pratiques pendant la formation à NTIC?</a>
+                    <i class="fa-solid fa-greater-than fa-rotate-90 fa " id="show-5" ></i>
+                </li>
+                <li class="answer" id="Answer-5"></li>
+
+                <li class="Question">
+                    <a>Comment sont organisés les stages pendant les formations dispensées par NTIC ?</a>
+                    <i class="fa-solid fa-greater-than fa-rotate-90 fa " id="show-6" ></i>
+                </li>
+                <li class="answer" id="Answer-6"></li>
+
+                <li class="Question">
+                    <a>Quels sont les objectifs visés par les stages à NTIC ?</a>
+                    <i class="fa-solid fa-greater-than fa-rotate-90 fa " id="show-7" ></i>
+                </li>
+                <li class="answer" id="Answer-7"></li>
+
+                <li class="Question">
+                    <a>Quels sont les avantages d'étudier à NTIC?</a>
+                    <i class="fa-solid fa-greater-than fa-rotate-90 fa " id="show-8" ></i>
+                </li>
+                <li class="answer" id="Answer-8"></li>
+            </ul>
+        </div>
+        <div>
+            <div class="pose-que">
+                <h5>Votre question ne figure pas dans la liste des FAQ ?</h5>
+                <a id="Pose" class="btn btn-success text-light">Cliquez ici</a>
+            </div>
+            <div id="valide">
+            </div>
+            <div class="contact-sec" id="hide" style="display: none;">
+                <form id="myForm"></form>
+            </div>
+        </div>
+    </section>
+    <script src="/header/header.js"></script>
+    <script src="/js_folder/home.js" ></script>
+
+    <foot-js></foot-js>
+    
+</body>
+</html>

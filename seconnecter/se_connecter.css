@@ -1,0 +1,299 @@
+:root{
+    --blue:	rgb(2, 117, 216);
+    --green:#47AE6A;
+    --grey:rgb(171, 166, 166);
+  }  
+@font-face {
+    font-family: "fontrounded"; 
+    src: url(arial-rounded.ttf);
+  }
+
+body{
+    top: 0;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: math;
+    max-width: 1500px;
+} 
+.full-view{
+    display: flex;
+    flex-direction: column;
+    font-family: "fontrounded";
+}
+.log-part{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.log-part .fa-house{
+    cursor: pointer;
+}
+.log-cont{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.headsers{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.headsers h1{
+    display: flex;
+    margin: 1rem;
+    text-transform: capitalize;
+    color: black;
+    text-wrap: nowrap;
+    align-items: end;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.headsers span{
+    text-transform: capitalize;
+    color: var(--blue);
+}
+.headsers i{
+    text-transform: capitalize;
+    color: var(--green);
+}
+.dsp-chek{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.dsp-chek input{
+    margin-left: 3px;
+}
+.check-1{
+    margin-left: 20px;
+}
+.dsp-chek p{
+    margin: 0;
+}
+
+.seconnecter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.seconnecter .login-title{
+    display: flex;
+    align-items: CENTER;
+    width: 100%;
+    JUSTIFY-CONTENT: center;
+    text-transform: capitalize;
+    color: var(--blue);
+    margin: 5px;
+    text-wrap: nowrap;
+}
+.seconnecter .mb-3{
+    display: flex;
+    align-items: CENTER;
+    JUSTIFY-CONTENT:center;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.position-relative {
+    position: relative;
+    left: -3.5rem;
+  }
+.pass1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.pass1 input{
+    width: 20rem;
+}
+.pass2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.pass2 input{
+    width: 20rem;
+}
+.check1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+
+}
+.mb-3 a{
+    text-decoration: none;
+    color: var(--blue);
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 0.9rem;
+}
+
+.mb-3 button{
+    position: relative;
+    background-color: var(--blue);
+    width: 30%;
+    top: 1rem;
+}
+.inscrire{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 2rem;
+    position: relative;
+    height: 7rem;
+} 
+.inscrire h5{
+    color: black;
+    margin: 0;
+    text-wrap: nowrap;
+    font-size: 1rem;
+    align-self: center;
+    position: relative;
+    top: 0.5rem;
+
+
+} 
+.inscrire a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: var(--blue);
+    margin-left: 0.5rem;
+    text-wrap: nowrap;
+    font-size: 1rem;
+    font-weight: 500;
+    align-self: center;
+} 
+.inscrire a:hover{
+    color: white;
+}
+.cree{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    top: 2rem;
+   
+}
+.cree button{
+    display: flex;
+    background-color: transparent;
+    align-self: center;
+    justify-content: center;
+    width: 30%;
+    position: static;
+}
+.cree .btn:hover{
+    background-color: var(--blue);
+}
+.cree .btn:hover a{
+    color: white;
+}
+/* imag**** */
+.imag-cont {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    position: relative;
+}
+.imag-cont img{
+    position: relative;
+    top: 2rem;
+    width: 80%;
+    height: 30rem;
+    border-radius: 2%;
+    justify-content: center;
+
+}
+.gest-cnnct{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.gest-cnnct a{
+    margin-left: 10px;
+}
+@media (  width > 530px) {
+    .cree button{
+        width: auto;
+    }
+    .log-cont{
+        width: 100%;
+    }
+    .pass1 input{
+        width: 15rem;
+    }
+    .pass2 input{
+        width: 15rem;
+    }
+    .position-relative {
+        align-items:center;
+    }
+    .mb-3 button{
+        text-wrap: nowrap;
+        width: auto;
+    }
+
+}
+@media (width: 280px) {
+    .position-relative{
+        left: 0.5rem;
+    }
+    
+}
+@media (width<540px) {
+    .log-cont{
+        width: 100%;
+    }
+    .headsers h1{
+        font-size: 1rem;
+    }
+    .imag-cont{
+        display: none;
+    }
+    .pass1 input{
+        margin-left: 20px;
+    }
+    .pass2 input{
+        margin-left: 20px;
+    }
+    .mb-3 button{
+        text-wrap: nowrap;
+        width: auto;
+    }
+    .inscrire {
+        width: auto;
+        margin: 0;
+    }
+    .cree{
+        width: auto;
+    }
+    .cree{
+        margin: 0;
+        width: auto;
+    }
+    .cree button{
+        width: auto;
+    }
+}
+@media (920px > width > 760px) {
+    .cree button{
+        width: auto;
+    }
+    .position-relative{
+        left: 0.5rem;
+    }
+
+}

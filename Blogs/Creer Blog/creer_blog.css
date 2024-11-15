@@ -1,0 +1,54 @@
+:root{
+  --blue:	rgb(2, 117, 216);
+  --green:#47AE6A;
+  --grey:rgb(171, 166, 166);
+}  
+@font-face {
+  font-family: "fontrounded"; 
+  src: url(arial-rounded.ttf);
+}
+
+body{
+  top: 0;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: math;
+  max-width: 100%;
+} 
+.full-height{
+  display: flex;
+  flex-direction: column;
+  font-family: "fontrounded"; 
+}
+
+/* Sections */
+
+section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+form .btn{
+  background-color: var(--green);
+}
+form .btn:hover{
+  background-color: var(--green);
+}
+
+
+/* Footer */

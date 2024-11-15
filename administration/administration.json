@@ -1,0 +1,48 @@
+{
+    "students": [
+      { "name": "Stagiaire 1", "performance": 20 , "prenom":"Mona","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 2", "performance": 15  , "prenom":"Khalid","group":"Div 111" ,"CEF":"G135422843"},
+      { "name": "Stagiaire 3", "performance": 12  , "prenom":"Abdorrahman","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 4", "performance": 17  , "prenom":"Abdellhak","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 5", "performance": 12  , "prenom":"Zineb","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 6", "performance": 12  , "prenom":"Sara","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 7", "performance": 17  , "prenom":"Karim","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 8", "performance": 17  , "prenom":"Nizar","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 9", "performance": 12  , "prenom":"Mohamed","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 10", "performance": 17  , "prenom":"Mohamed","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 11", "performance": 17  , "prenom":"Mohamed","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 12", "performance": 13.5  , "prenom":"Mohamed","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 13", "performance": 13.5  , "prenom":"Salma","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 14", "performance": 14  , "prenom":"Sanaa","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 15", "performance": 10  , "prenom":"Youness","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 16", "performance": 11  , "prenom":"Youssef","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 17", "performance": 14  , "prenom":"Aya","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 18", "performance":  8 , "prenom":"Amine","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 19", "performance": 7.5  , "prenom":"Monsif","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 20", "performance": 14  , "prenom":"Mona","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 21", "performance": 14  , "prenom":"Mona","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 22", "performance": 0  , "prenom":"Mona","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 23", "performance": 11  , "prenom":"Mona","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 24", "performance": 10  , "prenom":"Mona","group":"Div 111","CEF":"G135422843"},
+      { "name": "Stagiaire 25", "performance": 19  , "prenom":"Mona","group":"Div 111","CEF":"G135422843"}
+    ],
+    "grades": [
+      { "grade": "'exelent'", "count": 2 },
+      { "grade": "'tres bien'", "count": 5 },
+      { "grade": "'bien'", "count": 13 },
+      { "grade": "'passable'", "count": 4 },
+      { "grade": "eject", "count": 1 }
+    ],
+"courses": [
+      { "name": "Javascriot", "coursPerformance": 100 },
+      { "name": "PHP", "coursPerformance": 30 },
+      { "name": "HTML","coursPerformance": 100 },
+      { "name": "React", "coursPerformance": 5 },
+      { "name": "CSS", "coursPerformance": 90 },
+      { "name": "secirute","coursPerformance": 80 },
+      { "name": "Englais", "coursPerformance": 10 },
+      { "name": "Francais", "coursPerformance": 50 },
+      { "name": "Soft-Skils", "coursPerformance": 60 },
+      { "name": "SQL", "coursPerformance": 40 }
+    ]
+  }

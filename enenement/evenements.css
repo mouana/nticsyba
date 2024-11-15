@@ -1,0 +1,105 @@
+:root{
+  /* --blue:	rgb(2, 117, 216); */
+  --green:#47AE6A;
+  --grey:rgb(171, 166, 166);
+}
+@font-face {
+  font-family: "fontrounded"; 
+  src: url(arial-rounded.ttf);
+}
+body{
+  top: 0;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: math;
+  max-width: 100%;
+} 
+.full-height{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Sections */
+
+section {
+  position: relative;
+  top: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  margin-left: 5rem;
+  line-height: 26px;
+}
+section a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+section a:hover {
+  color: var(--blue);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+section img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+}
+
+section img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+  border-radius: 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.evenements_institution ,
+.evenements_public ,
+.evenements_pedagog {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  padding: 25px 0px;
+}
+
+.event-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  width: 350px;
+  padding: 25px 0px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+  rgba(0, 0, 0, 0.07) 0px 2px 4px,
+  rgba(0, 0, 0, 0.07) 0px 4px 8px,
+  rgba(0, 0, 0, 0.07) 0px 8px 16px,
+  rgba(0, 0, 0, 0.07) 0px 16px 32px,
+  rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.evenements_institution .btn{
+  background-color: var(--green);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 8px;
+}
+.evenements_institution .btn:hover{
+  background-color: var(--green);
+}
+.evenements_public .btn{
+  background-color: var(--green);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 8px;
+}
+.evenements_public .btn:hover{
+  background-color: var(--green);
+}
+.evenements_pedagog .btn{
+  background-color: var(--green);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 8px;
+}
+.evenements_pedagog .btn:hover{
+  background-color: var(--green);
+}
+
+/* Footer */

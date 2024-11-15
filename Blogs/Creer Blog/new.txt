@@ -1,0 +1,7 @@
+<section>
+<div style="display: flex; flex-direction:column; align-items:center;">
+    <h4>Votre demande a bien ete enregistree et sera traitee dans les plus brefs delais </h4>
+    <img src="./icon ok.png" alt="Enregistrement avec success" height="200px">
+    <button onclick="()=> {window.location.href="../blogs.html"}" id="deriger" style="background-color:green; color:white;"> <a href="../blogs.html" style="color:white; text-decoration:none;" >Retour</a> </button>
+</div>
+</section>

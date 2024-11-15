@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="/all.min.css">
+    <link rel="stylesheet" href="/fontawsom/fontawesome.min.css">
+    <link rel="stylesheet" href="/fontawsom/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="administration.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/jquery.min.js" ></script>
+    <link rel="stylesheet" href="inscription.css">
+</head>
+
+<body class="full-view" >
+    <section class="inscr-section">
+        <i class="fa-solid fa-house fa-2xl" style="color:rgb(2, 117, 216);"></i>
+        <div class="headsers">
+            <div>
+                <h1>bienvenue a &ensp;<span> NTIC </span><i>Syba</i></h1>
+            </div>    
+        </div>
+        <!-- **** -->
+        <div class="dsp-chek">
+            <p>Vous etes !</p>
+            <div class="form-check d-flex align-items-start justify-content-center  check-1 ">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+                <label class="form-check-label" for="inlineRadio1">&ensp;Stagaiere</label>
+            </div>
+            <div class="form-check d-flex align-items-start justify-content-center check-1">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" require>
+                <label class="form-check-label" for="inlineRadio2">&ensp; Formateur</label>
+            </div>
+            <div class="error-message text-danger text-center m-1"></div>
+        </div>
+        <!-- **** -->
+        <div class="seconnecter">
+            <div>
+                <h2 class="login-title">inscrivez-vous</h2>
+            </div>
+            <form class="input-group form-class " action="">
+                <div class="mb-3 cef-inp">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">123</span>
+                        <input type="text" class="form-control" id="cefMatricule" placeholder="CEF/matrecule" aria-label="CEF/matrecule" aria-describedby="basic-addon1" required>
+                        <div class="error-message text-danger text-center m-1"></div>
+                    </div> 
+                </div>
+                <div class="mb-3 cef-inp">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">1/A</span>
+                        <input type="text" class="form-control" id="Group" placeholder="group" aria-label="group" aria-describedby="basic-addon1" required>                   
+                        <div class="error-message text-danger text-center m-1"></div>
+
+                    </div>
+                </div>
+                <div class="input-group w-50 ">
+                    <input type="text" class="form-control" id="nom" placeholder="Nom" required>                   
+                    <div class="error-message text-danger text-center m-1"></div>
+
+                </div>
+                <div class="input-group w-50 ">
+                    <input type="text" class="form-control select-class" id="prenom" placeholder="Prenom" required>                   
+                    <div class="error-message text-danger text-center m-1"></div>
+
+                </div>
+                <div class="input-group w-50 ">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>                    
+                    <div class="error-message text-danger text-center m-1"></div>
+
+                </div>
+                <div class="input-group w-50 form-class-2 select-class">
+                    <input type="password" class="form-control" id="password" placeholder="Mot de pass" required>                    
+                    <div class="error-message text-danger text-center m-1"></div>
+
+                </div>
+                <div class="input-group w-50 form-class-2 select-class">
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="confirmer le mot de pass" required>                   
+                    <div class="error-message text-danger text-center m-1"></div>
+
+                </div>
+                <select class="form-select form-select-md w-50 select-class " aria-label="form-select">
+                    <option selected>chousissez votre filier</option>
+                    <option value="1" required>1</option>
+                    <option value="2"required>2</option>
+                    <option value="3"required>3</option>
+                </select>
+                
+                <select class="form-select form-select-md w-50 select-class " aria-label="form-select">
+                    <option selected>specialite</option>
+                    <option value="1"required>1</option>
+                    <option value="2"required>2</option>
+                    <option value="3"required>3</option>
+                </select>
+                <div class="butn-class">
+                    <button class="btn" type="submit">envoyer</button>
+                    <button class="btn bbtn" type="reset">reset</button>
+                </div>
+            </form>
+        </div>
+    </section>  
+    <div class="img-logo">
+        <img src="pile-livres-design-plat-dessines-main_23-2149344774-removebg.png" alt="">
+    </div>  
+    <script src="inscription.js" ></script>
+
+</body>
+</html>

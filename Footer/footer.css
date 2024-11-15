@@ -1,0 +1,109 @@
+:root{
+  --blue:	rgb(2, 117, 216);
+  --green:#47AE6A;
+  --grey:rgb(171, 166, 166);
+}  
+.footer{
+    position: relative;
+    margin-top: 80px;
+    padding: 30px 0;
+    background-color: var(--blue);  
+  }
+  .footer-cont{
+    margin: auto;
+    max-width: 1170px;
+    
+  }
+  ul{
+   list-style: none;  
+   padding: inherit;   
+  }
+  .columns{
+    width: 22%;
+    padding: 0 15px;
+  }
+  .rows{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .columns h3{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .columns h3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: var(--green);
+    width: 50px;
+    height: 2px;
+  
+  }
+  .columns ul{
+    padding-left: 0;
+  }
+  .columns ul li :not(:last-child){
+    margin-bottom: 10px;
+  }
+  .columns ul li a {
+    padding: 0;
+    margin: 5px;
+    color: white;
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  
+  }
+  .columns ul li a:hover{
+    color: black;
+    padding-left: 7px;
+  }
+  
+  .reseaux a:not(:last-child){
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    line-height: 40px;
+    color: white;
+  }
+  .reseaux a#wht :hover{
+    transition: 0.5s ease;  
+    color: rgb(34, 192, 87);
+    padding-left: 7px;
+  }
+  .reseaux a#gm :hover{
+    transition: 0.5s ease;  
+    color: rgb(216, 108, 54);
+    padding-left: 7px;
+  }
+  .reseaux a#tw :hover{
+    transition: 0.5s ease;  
+    color: rgb(34, 131, 192);
+    padding-left: 7px;
+  }
+  .reseaux a#fb :hover{
+    transition: 0.5s ease;  
+    color: rgb(19, 72, 122);
+    padding-left: 7px;
+  }
+  .reseaux a#locat{
+    text-decoration: none;
+    color: white;
+  }
+  .reseaux a#locat:hover{
+    transition: 0.5s;
+    color: var(--blue);
+  }
+  
